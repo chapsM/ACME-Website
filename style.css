@@ -1,0 +1,117 @@
+.container {
+    background-image: url(images/2.jpg);
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    height: 370px;
+}
+.intro p {
+margin: 0 auto;
+color: aliceblue;
+font-size: 40px;
+text-align: center;
+padding-top: 95px;
+}
+.after_intro {
+    color: aliceblue;
+    text-align: center;
+    display: block;
+    padding: 0 268px;
+    line-height: 1.4;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.button {
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        font-size: larger;
+}
+.center {
+    align-items: center;
+}
+/* banner end */
+
+.article{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.article p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.table {
+    margin: 0 200px;
+    text-align: center;
+    padding: 0 0px;
+    font-family: monospace;
+    font-size: 15px;
+}
+/* card end */
+
+.box_main{
+    display: flex;
+    column-gap: 10px;
+    padding: 55px 150px;
+}
+.box {
+    border: 2px solid white ;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+.box img {
+    width: 100%;
+}
+.box h4,p {
+    text-align: center;
+    font-size: larger;
+    line-height: 1.6;
+}
+.box h4 {
+    font-size: xx-large;
+}
+/* box end */
+
+.side_box {
+    display: flex;
+    height: 265px;
+    text-align: -webkit-center;
+}
+.side_box1 {
+    width: 50%;
+    background-color:#2690D4;;
+    padding-top: 8px;
+}
+.side_box2 {
+    width: 50%;
+    background-color: #333333;
+    padding-top: 8px;
+}
+.side_box .txt{
+    color: aliceblue;
+    text-align: center;
+    width: 435px;
+}
+.side_box h3 {
+    font-size: 33px;
+}
+
+/* upper footer end */
+
+.sidebyside{
+    display: flex;
+    height: 102px;
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+.sidebyside1{
+    color: aliceblue;
+    width: 50%;
+    padding-top: 8px;
+}
